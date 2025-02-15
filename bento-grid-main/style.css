@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+body {
+  font-family: "DM Sans", serif;
+}
+p {
+  font-size: 18px;
+}
+:root {
+  --Purple100: hsl(254, 88%, 90%);
+  --Purple500: hsl(256, 67%, 59%);
+  --Yellow100: hsl(31, 66%, 93%);
+  --Yellow500: hsl(39, 100%, 71%);
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 7%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  padding: 10px, auto;
+  
+}

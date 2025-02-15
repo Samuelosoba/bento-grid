@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <title>Frontend Mentor | Bento grid</title>
+  </head>
+  <body class="py-4 px-6">
+    <div class="md:grid grid-cols-12 gap-2">
+      <div class="col-span-8 md:grid grid-rows-12 gap 2">
+        <div class="row-span-8 md:grid grid-cols-12 gap-2">
+          <div class="col-span-8 md:grid grid-rows-12 gap-2">
+            <div
+              class="row-span-6 bg-[var(--Purple500)] text-center text-[var(--White)] p-10 rounded-lg"
+            >
+              <h1 class="font-bold text-3xl">
+                Social Media
+                <span class="text-[var(--Yellow500)]"> 10x</span> Faster with AI
+              </h1>
+              <img
+                src="./assets/images/illustration-five-stars.webp"
+                alt=""
+                class="mt-4 w-[60%] center mx-auto"
+              />
+              <p>Over 4,000 5-star reviews</p>
+            </div>
+            <div class="row-span-6 md:grid grid-cols-12 gap-2">
+              <div class="col-span-6 py-6 bg-[var(--White)]">
+                <img
+                  src="./assets/images/illustration-multiple-platforms.webp"
+                  alt=""
+                  class=""
+                />
+                <h1 class="text-lg font-semibold text-[var(--Black)] mt-4">
+                  Manage multiple accounts and platforms.
+                </h1>
+              </div>
+              <div class="col-span-6">maintain</div>
+            </div>
+          </div>
+
+          <div class="col-span-4">top-right-corner</div>
+        </div>
+        <div class="row-span-4">bottom-right</div>
+      </div>
+
+      <div class="col-span-4 bg-red-500">left</div>
+    </div>
+
+    Maintain a consistent posting schedule. Schedule to social media. Optimize
+    post timings to publish content at the perfect time for your audience. Grow
+    followers with non-stop content. >56% faster audience growth Create and
+    schedule content quicker. Write your content using AI.
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
